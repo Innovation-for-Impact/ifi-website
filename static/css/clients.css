@@ -230,45 +230,7 @@
     max-width: 100%;
   }
 }
-/* ===========================
-   Testimonials
-   =========================== */
 
-.clients-testimonials {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
-}
-
-.testimonial-card {
-  background: #020617;
-  border-radius: 16px;
-  border: 1px solid rgba(148, 163, 184, 0.5);
-  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.85);
-  padding: 1.5rem 1.4rem;
-}
-
-.testimonial-card h3 {
-  margin-bottom: 0.1rem;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.testimonial-role {
-  margin-bottom: 0.8rem;
-  font-size: 0.85rem;
-  color: #a5b4fc;
-}
-
-.testimonial-quote {
-  font-size: 0.9rem;
-  line-height: 1.7;
-}
 
 /* ===========================
    Projects

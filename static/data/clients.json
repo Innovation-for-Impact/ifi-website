@@ -2,7 +2,7 @@
   "summary": {
     "statNumber": "8+",
     "statLabel": "Clients Served",
-    "intro": "At Innovation For Impact, we’ve worked with student orgs, startups, and local businesses to ship data-driven, design-forward products."
+    "intro": "At Innovation For Impact, we've worked with student orgs, startups, and local businesses to ship data-driven, design-forward products."
   },
 "experience": [
   {
@@ -22,18 +22,6 @@
     "description": "We work with clients to refine user journeys, wireframes, and visual systems. From quick clickable prototypes to polished design systems, we keep user needs and clarity at the center."
   }
 ],
-  "testimonials": [
-    {
-      "name": "Celine Darvas",
-      "role": "Marketing Director",
-      "quote": "IFI was amazing to work with. The team was responsive, creative, and shipped exactly what we needed."
-    },
-    {
-      "name": "Arleen Cheema",
-      "role": "Co-Social Director",
-      "quote": "They felt like an extension of our own org – super professional, but still fun and easy to collaborate with."
-    }
-  ],
   "projects": {
     "internal": [
       {

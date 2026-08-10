@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
 function renderClientsPage(data) {
   renderHero(data.summary, data.logos);
   renderExperience(data.experience);
-  renderTestimonials(data.testimonials);
   renderProjects(data.projects);
   renderCTA(data.cta);
 }
@@ -125,25 +124,6 @@ function setupExperienceAccordions() {
   });
 }
 
-
-/* ---------- TESTIMONIALS ---------- */
-
-function renderTestimonials(testimonials = []) {
-  const gridEl = document.getElementById("testimonials-grid");
-  if (!gridEl || !Array.isArray(testimonials)) return;
-
-  gridEl.innerHTML = testimonials
-    .map(
-      (t) => `
-      <article class="testimonial-card">
-        <h3>${t.name || ""}</h3>
-        ${t.role ? `<p class="testimonial-role">${t.role}</p>` : ""}
-        <p class="testimonial-quote">“${t.quote || ""}”</p>
-      </article>
-    `
-    )
-    .join("");
-}
 
 /* ---------- PROJECTS ---------- */
 

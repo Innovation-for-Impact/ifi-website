@@ -17,10 +17,10 @@ import "./static/css/recruitment.css";
 const routes: Record<string, React.ComponentType> = {
   "/": HomePage,
   "/index.html": HomePage,
-  "/pages/clients.html": ClientsPage,
-  "/pages/contact-us.html": ContactPage,
-  "/pages/our-team.html": TeamPage,
-  "/pages/recruitment.html": RecruitmentPage,
+  "/clients": ClientsPage,
+  "/contact-us": ContactPage,
+  "/our-team": TeamPage,
+  "/recruitment": RecruitmentPage,
 };
 
 function App() {
